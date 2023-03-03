@@ -1,0 +1,21 @@
+{
+  "name": "proyecto-invested1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run eslint && npm run htmlhint",
+    "start": "serve src",
+    "deploy": "gh-pages -d src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.35.0",
+    "gh-pages": "^5.0.0",
+    "htmlhint": "^1.1.4"
+  }
+}

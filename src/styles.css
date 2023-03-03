@@ -1,0 +1,70 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+
+:root {
+    --aque: #219ebc;
+    --azulmarine: #023047;
+    --orange: #fb8500;
+    --celeste: #8ecae6;
+
+}
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #e1f5f7;
+}
+
+header {
+ background-color:var(--aque);
+}
+
+#company-description {
+    color: #05173f;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.company-name {
+    color: var(--azulmarine);
+    font-weight: bold;
+    font-size: 36px;
+    height: 8vh;
+    transition: 0.3s ease-in-out all;
+    display: flex;
+    justify-content: center;
+
+}
+
+.company-name:hover {
+    color: #ffb703 !important;
+
+}
+
+.main-content{
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+}
+
+.crud-container{
+    width: 60%;
+    padding: 2rem 3rem;
+    overflow: auto;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.4);
+    border-radius: 0.5rem;
+
+}  
+.crud-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 1rem solid;
+}
+.crud-container h2{
+    font-weight: bold;
+    font-size: 35px;
+}
